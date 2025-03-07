@@ -1,0 +1,172 @@
+import { StyleSheet } from 'react-native';
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    padding: 16,
+    backgroundColor: '#f5f5f5',
+  },
+  productContainer: {
+    backgroundColor: '#fff',
+    borderRadius: 10,
+    marginBottom: 16,
+    padding: 16,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 1 },
+    shadowOpacity: 0.2,
+    shadowRadius: 3,
+    elevation: 2,
+    alignItems: 'center',
+  },
+  productImage: {
+    width: 150,
+    height: 150,
+    borderRadius: 10,
+    marginBottom: 10,
+  },
+  productName: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: '#4A4A4A',
+  },
+  productPrice: {
+    fontSize: 16,
+    color: '#6D4F2F',
+  },
+  addToCartButton: {
+    backgroundColor: '#8C6D3F',
+    paddingVertical: 15,
+    paddingHorizontal: 25,
+    borderRadius: 5,
+    marginTop: 10,
+    width: '100%',
+  },
+  addToCartButtonText: {
+    textAlign: 'center',
+    color: '#fff',
+    fontSize: 16,
+  },
+  cartButtonContainer: {
+    position: 'absolute',
+    top: 10,
+    right: 10,
+    backgroundColor: '#8C6D3F',
+    borderRadius: 50,
+    padding: 12,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 1 },
+    shadowOpacity: 0.2,
+    shadowRadius: 3,
+    elevation: 2,
+  },
+  cartButtonIcon: {
+    color: '#fff',
+  },
+  modalContainer: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: 'rgba(0, 0, 0, 0.5)',
+  },
+  modalContent: {
+    backgroundColor: '#fff',
+    padding: 20,
+    borderRadius: 10,
+    alignItems: 'center',
+    width: '80%',
+  },
+  modalTitle: {
+    fontSize: 20,
+    fontWeight: 'bold',
+    marginBottom: 20,
+  },
+  quantityControls: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginBottom: 20,
+  },
+  quantityButton: {
+    backgroundColor: '#8C6D3F',
+    padding: 10,
+    borderRadius: 50,
+    marginHorizontal: 10,
+  },
+  quantityText: {
+    fontSize: 16,
+    color: '#000',
+  },
+  modalActions: {
+    width: '100%',
+    marginTop: 20,
+  },
+  cartItem: {
+    flexDirection: 'row',
+    padding: 16,
+    backgroundColor: '#fff',
+    borderRadius: 10,
+    marginBottom: 12,
+    borderWidth: 1,
+    borderColor: '#D4B89A',
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 1 },
+    shadowOpacity: 0.2,
+    shadowRadius: 3,
+    elevation: 2,
+    alignItems: 'center',
+    justifyContent: 'space-between',
+  },
+  cartItemName: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: '#4A4A4A',
+    flex: 2,
+  },
+  cartItemPrice: {
+    fontSize: 16,
+    color: '#6D4F2F',
+  },
+  quantityControlsCart: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginRight: 16,
+  },
+  quantityButtonCart: {
+    backgroundColor: '#8C6D3F',
+    padding: 8,
+    borderRadius: 20,
+    marginHorizontal: 8,
+  },
+  quantityButtonTextCart: {
+    color: '#fff',
+    fontSize: 18,
+    fontWeight: 'bold',
+  },
+  quantityTextCart: {
+    fontSize: 18,
+    color: '#000',
+    fontWeight: 'bold',
+  },
+  removeButton: {
+    backgroundColor: '#D32F2F',
+    paddingVertical: 8,
+    paddingHorizontal: 16,
+    borderRadius: 20,
+    alignItems: 'center',
+  },
+  removeButtonText: {
+    color: '#fff',
+    fontWeight: 'bold',
+  },
+  checkoutContainer: {
+    marginTop: 20,
+  },
+  emptyCartText: {
+    fontSize: 18,
+    textAlign: 'center',
+    marginTop: 50,
+    color: '#8C6D3F',
+  },
+});
+
+export default styles;
